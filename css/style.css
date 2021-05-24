@@ -1,0 +1,442 @@
+#botoneraPrincipal{ 
+    display:inline;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    list-style:none;
+    list-style-type: none;
+    padding: 30px;
+    margin: 100px;
+    text-align: center;
+   
+
+
+}
+.enlace{
+    position: relative;
+    display: inline-block;
+    color: rgb(241, 212, 212);
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(228, 165, 165);
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Cormorant Garamond', sans-serif; 
+    border-radius: 40px; 
+}
+li :hover{color: purple;}
+* {
+    box-sizing: border-box;
+}
+hr{
+    height: 10px;
+    background-color: salmon;
+    border-radius: 10px;
+
+   
+    
+}
+body {
+    background:Plum;
+    color:purple;
+    line-height: 1.6;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0 1.5em;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    border-style: solid;
+    border-radius: 20px;
+    background-color:rgb(226, 154, 166);
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contacto{
+    background: plum;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1.5em;
+}
+
+.contacto form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto-form form label {
+    display: inline-flexbox;
+}
+
+.contacto-form form p {
+    margin: 0;
+    padding: 1em;
+}
+.contacto-info {
+    background:plum;
+    
+}
+
+.contacto-info h4, .contacto-info ul, .contacto-info p {
+    text-align: center;
+    padding-top: 10px;
+}
+.boton2{
+    border: 1px solid plum; 
+    padding: 9px; 
+    background-color:plum; 
+    color:rgb(119, 8, 119);
+    
+}
+.titulo1{
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    color:plum
+}
+.tarjeta1 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta1 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta1-content h2{
+    margin-top: 10px;
+    margin-bottom:auto;
+    font-weight: normal;
+    border-radius: 50px; 
+    border-style: solid;
+    display:flexbox;
+    border-color:white;
+    font-size: 20px;
+    text-align: center;
+}
+.tarjeta1-content p{
+    font-size: auto
+}
+figure{
+    margin: 0;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10;
+}
+
+.tarjeta1{
+    background-color:plum;
+    margin-bottom: auto;
+    width: 33%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: thistle;
+}
+.tarjeta1 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta1 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta1-content h2{
+    margin-top: 10px;
+    margin-bottom:auto;
+    font-weight: normal;
+    border-radius: 60px; 
+    border-style: solid;
+    display:flexbox;
+    border-color:white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(233, 201, 201);
+}
+.tarjeta1-content p{
+    font-size: auto}
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+.titulo2{
+    text-align:center;
+    padding: auto;
+    margin-top: auto;
+    display:flexbox;
+    border-color:violet;
+    font-size: 30px;
+}
+.subtitulo2{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display:flexbox;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.titulos{
+    text-align:center;
+    padding: auto;
+    margin-top: auto;
+    display:flexbox;
+    border-style: solid;
+    border-radius: 20px;
+    border-color:white;
+    font-size: 30px;
+    background-color: rgb(233, 201, 201);
+}
+.subtitulo1{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display:flexbox;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-width:53em){
+    .centrado{
+    margin: 0 auto;
+    padding: 0 .6em;
+    }
+}
+.tarjeta3 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta3 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta3-content h2{
+    margin-top: 10px;
+    margin-bottom:auto;
+    font-weight: normal;
+    border-radius: 50px; 
+    border-style: solid;
+    display:flexbox;
+    border-color:white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(233, 201, 201);
+}
+.tarjeta3-content p{
+    font-size: auto
+
+}
+
+.tarjeta3 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta3 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta3{
+    background-color:plum;
+    margin-bottom: auto;
+    width: 33%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: thistle;
+}
+*/
+.tarjeta2 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta2 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta2-content h2{
+    margin-top: 10px;
+    margin-bottom:auto;
+    font-weight: normal;
+    border-radius: 50px; 
+    border-style: solid;
+    display:flexbox;
+    border-color:white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(233, 201, 201);
+}
+.tarjeta2-content p{
+    font-size: auto
+
+}
+
+.tarjeta2 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta2 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta2{
+    background-color:plum;
+    margin-bottom: auto;
+    width: 33%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: thistle;
+}
+*/
+.tarjeta4 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta4 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta4-content h2{
+    margin-top: 10px;
+    margin-bottom:auto;
+    font-weight: normal;
+    border-radius: 50px; 
+    border-style: solid;
+    display:flexbox;
+    border-color:white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(233, 201, 201);
+}
+.tarjeta4-content p{
+    font-size: auto
+
+}
+
+.tarjeta4 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta4 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta4{
+    background-color:plum;
+    margin-bottom: auto;
+    width: 33%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: thistle;
+}
+*/
+.tarjeta5 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta5 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta5-content h2{
+    margin-top: 10px;
+    margin-bottom:auto;
+    font-weight: normal;
+    border-radius: 50px; 
+    border-style: solid;
+    display:flexbox;
+    border-color:white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(233, 201, 201);
+}
+.tarjeta5-content p{
+    font-size: auto
+
+}
+
+.tarjeta5 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta5 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta5{
+    background-color:plum;
+    margin-bottom: auto;
+    margin-top: 20px;
+    width: 33%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: thistle;
+}
+*/
+.tarjeta6 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta6 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta6-content h2{
+    margin-top: 10px;
+    margin-bottom:auto;
+    font-weight: normal;
+    border-radius: 50px; 
+    border-style: solid;
+    display:flexbox;
+    border-color:white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(233, 201, 201);
+}
+.tarjeta6-content p{
+    font-size: auto
+
+}
+
+.tarjeta6 a{
+    color:purple;
+    text-decoration: none;
+    
+}
+.tarjeta6 a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+.tarjeta6{
+    background-color:plum;
+    margin-bottom: auto;
+    width: 33%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: thistle;
+}
